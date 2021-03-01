@@ -48,6 +48,8 @@ a:hover {
   background-color: red;
   font-family: "Roboto", sans-serif;
   padding: 0px 20px;
+  padding-bottom: 0;
+  padding-right: 10%;
 }
 
 .logo {
@@ -131,13 +133,12 @@ a:hover {
   cursor: pointer;
 }
 
-
 /* footer */
 
 .footer-icon {
   padding-right: 0.6rem;
   font-size: 24px;
-  color: rgb(102,102,102);
+  color: rgb(102, 102, 102);
 }
 
 .footer-title {
@@ -153,20 +154,24 @@ a:hover {
 
 .footer-copyright {
   font-size: 12px;
-    line-height: 12px;
-    text-transform: uppercase;
-    color: #666;
-    margin-bottom: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
 }
 
 .footer-icon:hover {
   color: blue !important;
 }
 
-.nav-footer-middle, .nav-footer-bottom {
+.nav-footer-middle,
+.nav-footer-bottom {
   font-size: 12px;
 }
 
 .nav-link-footer:hover {
   color: black !important;
+}
+
+@media (max-width: 448px) {
 }
