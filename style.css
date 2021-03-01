@@ -173,5 +173,32 @@ a:hover {
   color: black !important;
 }
 
-@media (max-width: 448px) {
+@media (max-width: 576px) {
+  .logo {
+    font-size: 0.9rem !important;
+  }
+
+  .nav-top {
+    height: 7vh;
+  }
+
+  .nav-top-right {
+    margin-bottom: 60px;
+  }
+
+  .btn-subscribe {
+    font-size: 0.8rem !important;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 568px) and (max-width: 1200px) {
+  .btn-subscribe {
+    font-size: 0.9rem !important;
+    margin-right: 20px;
+  }
+
+  .nav-top-right {
+    margin-bottom: 40px;
+  }
 }
