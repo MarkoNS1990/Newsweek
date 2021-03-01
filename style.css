@@ -52,7 +52,6 @@ a:hover {
 
 .logo {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 4rem;
   font-weight: 900;
   text-transform: capitalize;
 }
@@ -74,7 +73,8 @@ a:hover {
   margin: 7px 0;
 }
 
-.vantage {
+.vantage,
+.editions {
   margin: 7px 0;
 }
 
@@ -135,17 +135,19 @@ a:hover {
 /* footer */
 
 .footer-icon {
-  color: black;
+  padding-right: 0.6rem;
+  font-size: 24px;
+  color: rgb(102,102,102);
 }
 
 .footer-title {
   color: red;
   font-weight: 900;
-  font-size: 3rem;
-  padding-bottom: 0 !important;
+  padding: 0 8px;
+  margin: 0;
 }
 
-.nav-footer {
+.nav-footer-top {
   border-bottom: 1px solid rgba(154, 154, 154, 0.4);
 }
 
@@ -155,4 +157,16 @@ a:hover {
     text-transform: uppercase;
     color: #666;
     margin-bottom: 12px;
+}
+
+.footer-icon:hover {
+  color: blue !important;
+}
+
+.nav-footer-middle, .nav-footer-bottom {
+  font-size: 12px;
+}
+
+.nav-link-footer:hover {
+  color: black !important;
 }
