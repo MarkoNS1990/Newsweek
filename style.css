@@ -3,6 +3,9 @@
                 ****** RESET ******
     ==============================================
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
 body {
   margin: 0;
 }
@@ -40,3 +43,47 @@ a:hover {
                 ****** GLOBAL ******
     ==============================================
 */
+
+.nav-top {
+  background-color: red;
+}
+
+.nav-border {
+  border-right: 1px solid rgba(154, 154, 154, 0.4);
+  margin: 7px 0;
+}
+
+.vantage {
+  margin: 7px 0;
+}
+
+.search {
+  font-weight: 300;
+}
+
+.search-font {
+  color: rgb(128, 127, 135) !important;
+}
+
+.nav-middle {
+  font-size: 19px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.nav-bottom {
+  font-size: 19px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  border-top: 1px solid rgba(154, 154, 154, 0.4);
+  border-bottom: 1px solid rgba(154, 154, 154, 0.4);
+}
+
+.trending {
+  font-weight: 900;
+}
+
+.nav-font-color {
+  color: rgb(128, 127, 135) !important;
+}
