@@ -344,6 +344,10 @@ input {
   .icon-n {
     width: 2.5rem;
   }
+
+  .vs {
+    left: 200px;
+  }
 }
 
 @media (min-width: 568px) and (max-width: 1200px) {
@@ -358,5 +362,9 @@ input {
 
   .icon-n {
     width: 4rem;
+  }
+
+  .vs {
+    left: 230px;
   }
 }
