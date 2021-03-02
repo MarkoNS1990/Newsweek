@@ -187,15 +187,59 @@ a:hover {
   padding-bottom: 11px;
 }
 
-.article-top {
-  background: url(assets/donald-trump.webp) center center/cover no-repeat;
+/* article bg images */
+.proba {
+  background: url(assets/trump-waves-south-lawn.webp) center center/cover
+    no-repeat;
   height: 20vh;
+}
+
+.article-top:nth-child(1) {
+  background: url(assets/donald-trump.webp) center center/cover no-repeat;
+  height: 25vh;
+}
+
+.article-top:nth-child(3) {
+  background: url(assets/newsweek-expert-forum.webp) center center/cover
+    no-repeat;
+  height: 25vh;
+}
+.article-top:nth-child(4) {
+  background: url(assets/trump-steps-off-air-force-one.webp) center center/cover
+    no-repeat;
+  height: 25vh;
+}
+.article-top:nth-child(5) {
+  background: url(assets/biden-speaks-delaware.webp) center center/cover
+    no-repeat;
+  height: 25vh;
+}
+.article-top:nth-child(6) {
+  background: url(assets/donald-trump.webp) center center/cover no-repeat;
+  height: 25vh;
+}
+.article-top:nth-child(7) {
+  background: url(assets/donald-trump.webp) center center/cover no-repeat;
+  height: 25vh;
+}
+.article-top:nth-child(8) {
+  background: url(assets/donald-trump.webp) center center/cover no-repeat;
+  height: 25vh;
+}
+.article-top:nth-child(9) {
+  background: url(assets/donald-trump.webp) center center/cover no-repeat;
+  height: 25vh;
 }
 
 .overlay-text {
   background-color: #fff;
   opacity: 0.9;
   align-self: flex-end;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 576px) {
