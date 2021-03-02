@@ -340,6 +340,10 @@ input {
     font-size: 0.8rem !important;
     margin-right: 20px;
   }
+
+  .icon-n {
+    width: 2.5rem;
+  }
 }
 
 @media (min-width: 568px) and (max-width: 1200px) {
@@ -350,5 +354,9 @@ input {
 
   .nav-top-right {
     margin-bottom: 40px;
+  }
+
+  .icon-n {
+    width: 4rem;
   }
 }
