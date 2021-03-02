@@ -10,7 +10,6 @@ In this project we were making a clone of newsweek website using bootstrap frame
 
 - CSS/HTML
 - Bootstrap
--
 
 ## Live Demo
 
