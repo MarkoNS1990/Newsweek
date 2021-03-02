@@ -188,18 +188,14 @@ a:hover {
 }
 
 /* article bg images */
-.proba {
-  background: url(assets/trump-waves-south-lawn.webp) center center/cover
-    no-repeat;
-  height: 20vh;
-}
 
 .article-top:nth-child(1) {
   background: url(assets/donald-trump.webp) center center/cover no-repeat;
   height: 25vh;
+  cursor: pointer;
 }
 
-.article-top:nth-child(3) {
+.article-top:nth-of-type(2) {
   background: url(assets/newsweek-expert-forum.webp) center center/cover
     no-repeat;
   height: 25vh;
@@ -240,6 +236,11 @@ a:hover {
   padding: 8px;
   font-weight: bold;
   font-size: 0.9rem;
+}
+
+.article-title:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 @media (max-width: 576px) {
