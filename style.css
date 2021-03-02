@@ -250,6 +250,20 @@ a:hover {
   padding-bottom: 11px;
 }
 
+.stories-title {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.stories-title:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.stories-p {
+  font-size: 13px;
+}
+
 @media (max-width: 576px) {
   .logo {
     font-size: 0.9rem !important;
