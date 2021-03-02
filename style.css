@@ -195,38 +195,6 @@ a:hover {
   cursor: pointer;
 }
 
-.article-top:nth-of-type(2) {
-  background: url(assets/newsweek-expert-forum.webp) center center/cover
-    no-repeat;
-  height: 25vh;
-}
-.article-top:nth-child(4) {
-  background: url(assets/trump-steps-off-air-force-one.webp) center center/cover
-    no-repeat;
-  height: 25vh;
-}
-.article-top:nth-child(5) {
-  background: url(assets/biden-speaks-delaware.webp) center center/cover
-    no-repeat;
-  height: 25vh;
-}
-.article-top:nth-child(6) {
-  background: url(assets/donald-trump.webp) center center/cover no-repeat;
-  height: 25vh;
-}
-.article-top:nth-child(7) {
-  background: url(assets/donald-trump.webp) center center/cover no-repeat;
-  height: 25vh;
-}
-.article-top:nth-child(8) {
-  background: url(assets/donald-trump.webp) center center/cover no-repeat;
-  height: 25vh;
-}
-.article-top:nth-child(9) {
-  background: url(assets/donald-trump.webp) center center/cover no-repeat;
-  height: 25vh;
-}
-
 .overlay-text {
   background-color: #fff;
   opacity: 0.9;
@@ -294,6 +262,7 @@ a:hover {
   position: relative;
   margin: 20px 0;
 }
+
 .vs {
   position: absolute;
   top: -13px;
