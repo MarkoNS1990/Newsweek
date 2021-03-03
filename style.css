@@ -130,6 +130,20 @@ a:hover {
   pointer-events: none !important;
 }
 
+.news-article {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.news-article:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.news-img {
+  height: 6rem;
+}
+
 /* footer */
 
 .footer-icon {
@@ -292,6 +306,61 @@ input {
   font-size: 0.8rem;
 }
 
+/* Magazine */
+
+.logo-magazine {
+  width: 1.5rem;
+}
+
+.magazine-title {
+  padding-left: 0.6rem;
+  margin-top: 0.5rem;
+  font-size: 18px;
+}
+
+.features-title {
+  font-size: 18px;
+}
+
+.features-title:hover {
+  background-color: rgb(207, 190, 190);
+}
+
+.subscribe-title {
+  font-size: 1.4rem;
+}
+
+.subscribe-p,
+.newsletter-p {
+  font-size: 0.9rem;
+}
+
+.subscribe-b {
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+}
+
+.subscribe-left {
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+.newsletter-title {
+  font-size: 1.3rem;
+}
+
+.newsletter-img {
+  background: url(/assets/starting5-homepage.png) center center/cover no-repeat;
+}
+
+.box-right {
+  height: 100%;
+}
+
+.newsletter-left {
+  flex-basis: 65%;
+}
+
 @media (max-width: 576px) {
   .logo {
     font-size: 0.9rem !important;
@@ -316,6 +385,15 @@ input {
 
   .vs {
     left: 200px;
+  }
+
+  .newsletter-row {
+    flex-direction: column;
+  }
+
+  .newsletter-right,
+  .newsletter-left {
+    text-align: center;
   }
 }
 
