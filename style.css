@@ -386,6 +386,15 @@ input {
   .vs {
     left: 200px;
   }
+
+  .newsletter-row {
+    flex-direction: column;
+  }
+
+  .newsletter-right,
+  .newsletter-left {
+    text-align: center;
+  }
 }
 
 @media (min-width: 568px) and (max-width: 1200px) {
