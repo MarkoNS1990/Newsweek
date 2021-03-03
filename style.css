@@ -353,6 +353,13 @@ input {
   background: url(/assets/starting5-homepage.png) center center/cover no-repeat;
 }
 
+.box-right {
+  height: 100%;
+}
+
+.newsletter-left {
+  flex-basis: 65%;
+}
 
 @media (max-width: 576px) {
   .logo {
