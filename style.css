@@ -326,6 +326,34 @@ input {
   background-color: rgb(207, 190, 190);
 }
 
+.subscribe-title {
+  font-size: 1.4rem;
+}
+
+.subscribe-p,
+.newsletter-p {
+  font-size: 0.9rem;
+}
+
+.subscribe-b {
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+}
+
+.subscribe-left {
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+.newsletter-title {
+  font-size: 1.3rem;
+}
+
+.newsletter-img {
+  background: url(/assets/starting5-homepage.png) center center/cover no-repeat;
+}
+
+
 @media (max-width: 576px) {
   .logo {
     font-size: 0.9rem !important;
