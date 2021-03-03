@@ -130,6 +130,20 @@ a:hover {
   pointer-events: none !important;
 }
 
+.news-article {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.news-article:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.news-img {
+  height: 6rem;
+}
+
 /* footer */
 
 .footer-icon {
@@ -309,7 +323,7 @@ input {
 }
 
 .features-title:hover {
-  background-color:rgb(207, 190, 190);
+  background-color: rgb(207, 190, 190);
 }
 
 @media (max-width: 576px) {
